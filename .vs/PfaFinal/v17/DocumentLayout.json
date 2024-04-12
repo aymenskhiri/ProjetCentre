@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|c:\\users\\pc\\source\\repos\\pfafinal\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAA4C2A-CCAA-4BA0-B32B-7E513772DE26}|PfaFinal.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T15:34:11.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:31:52.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Professeur.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Professeur.cs",
+              "RelativeDocumentMoniker": "Models\\Professeur.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Professeur.cs",
+              "RelativeToolTip": "Models\\Professeur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:30:58.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:39:14.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:32:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Salle.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Salle.cs",
+              "RelativeDocumentMoniker": "Models\\Salle.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Salle.cs",
+              "RelativeToolTip": "Models\\Salle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:33:25.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:34:44.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:38:17.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T13:42:04.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Dbcontext.cs",
+              "RelativeDocumentMoniker": "Models\\Dbcontext.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\PfaFinal\\Models\\Dbcontext.cs",
+              "RelativeToolTip": "Models\\Dbcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:30:00.775Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
