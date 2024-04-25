@@ -16,7 +16,7 @@ namespace PfaFinal.Controllers
         public SalleController(Dbcontext context)
         {
             _context = context;
-        }
+        }                            
 
         // GET: api/Salle
         [HttpGet]
@@ -88,7 +88,7 @@ namespace PfaFinal.Controllers
             {
                 return NotFound();
             }
-
+               
             _context.Salles.Remove(salle);
             await _context.SaveChangesAsync();
 
