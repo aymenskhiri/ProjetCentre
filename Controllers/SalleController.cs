@@ -36,7 +36,7 @@ namespace PfaFinal.Controllers
                 return NotFound();
             }
 
-            return salle;
+            return salle;  
         }
 
         // POST: api/Salle
