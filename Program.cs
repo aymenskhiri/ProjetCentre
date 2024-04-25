@@ -24,13 +24,22 @@ builder.Services.AddSwaggerGen(options =>
     options.OperationFilter<SecurityRequirementsOperationFilter>();
 
 });
+
+builder.Services.AddCors(p => p.AddPolicy("corspolicy", build =>
+{
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 builder.Services.AddDbContext<Dbcontext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
 
 builder.Services.AddAuthorization();
 
-builder.Services.AddIdentityApiEndpoints<IdentityUser>().AddEntityFrameworkStores<Dbcontext>();
+builder.Services.AddIdentityApiEndpoints<IdentityUser>().AddEntityFrameworkStores<Dbcontext>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<Dbcontext>();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -39,6 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("corspolicy");
 app.MapIdentityApi<IdentityUser>();
 app.UseHttpsRedirection();
 

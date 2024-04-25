@@ -41,11 +41,11 @@ namespace PfaFinal.Controllers
 
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(string email, string password)
+        public async Task<IActionResult> Login(LoginModel model)
         {
             var signInResult = await signInManager.PasswordSignInAsync(
-                  userName: email!,
-                  password: password!,
+                  userName: model.Email!,
+                  password: model.Password!,
                   isPersistent: false,
                   lockoutOnFailure: false
                   );
@@ -55,5 +55,34 @@ namespace PfaFinal.Controllers
             }
             return BadRequest("Error occured");
         }
-    }
+
+        //test simple post request
+
+        [HttpPost("log")]
+        public async Task<IActionResult> Log(LoginModel model)
+        {
+            // Validate the login credentials
+            if (IsValidLogin(model.Email, model.Password))
+            {
+                return Ok(new { message = "Login successful" });
+            }
+            else
+            {
+                return BadRequest(new { message = "Invalid email or password" });
+            }
+        }
+
+        private bool IsValidLogin(string email, string password)
+        {
+            // Your validation logic here
+            // For demonstration purposes, accept any email and password combination
+            return true;
+        }
+
+        public class LoginModel 
+        {
+            public string Email { get; set; }
+            public string Password { get; set; }
+        }
+    }   
 }
