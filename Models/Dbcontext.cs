@@ -20,6 +20,13 @@ namespace PfaFinal.Models
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+            var Admin = new IdentityRole("Admin");
+            Admin.NormalizedName = "Admin";
+
+            var Professeur = new IdentityRole("Professeur");
+            Professeur.NormalizedName = "Professeur";
+
+            builder.Entity<IdentityRole>().HasData(Admin, Professeur);
         }
     }
 }
