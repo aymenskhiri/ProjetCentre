@@ -15,7 +15,7 @@ namespace PfaFinal.Controllers
 
         public SalleController(Dbcontext context)
         {
-            _context = context;
+            _context = context;   
         }                            
 
         // GET: api/Salle
