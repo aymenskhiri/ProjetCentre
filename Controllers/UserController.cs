@@ -31,12 +31,27 @@ namespace PfaFinal.Controllers
                 Prenom = model.Prenom,
                 Adresse = model.Adresse,
                 Tel = model.Tel,
-            };
+                Role = "Professeur"
+        };
+            
             var result = await userManager.CreateAsync(user, user.PasswordHash!);
-            if (result.Succeeded)
-                return Ok("Registration made successfully");
-
+            
+            /*
+            if (result.Succeeded) { 
+             var r =   await userManager.AddToRoleAsync(user, "Professeur");
+                if (r.Succeeded)
+                {
+                   
+                }
+           else
+                {
+                    return NotFound("8alta");
+                }
+            }
+          
             return BadRequest(result.Errors);
+              */
+            return Ok("Registration made successfully");
         }
 
 
@@ -51,7 +66,8 @@ namespace PfaFinal.Controllers
                   );
             if (signInResult.Succeeded)
             {
-                return Ok("You are successfully logged in");
+                
+                return Ok("register succeed");
             }
             return BadRequest("Error occured");
         }
